@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_02", "Chapter_02\Chapter_02.csproj", "{79A10898-0075-462D-882A-F69B5F45ED47}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Code Style Enforcer", "Code Style Enforcer", "{1E85685B-A7E7-4BCE-BF5E-5FFB52B8B957}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\..\..\Program Files\Code Style Enforcer\CustomRules\ImplementationRules.xml = ..\..\..\..\..\..\Program Files\Code Style Enforcer\CustomRules\ImplementationRules.xml
+		..\..\..\..\..\..\Program Files\Code Style Enforcer\CustomRules\NameRules.xml = ..\..\..\..\..\..\Program Files\Code Style Enforcer\CustomRules\NameRules.xml
+		..\..\..\..\..\..\Program Files\Code Style Enforcer\CustomRules\VisibilityRules.xml = ..\..\..\..\..\..\Program Files\Code Style Enforcer\CustomRules\VisibilityRules.xml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{79A10898-0075-462D-882A-F69B5F45ED47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79A10898-0075-462D-882A-F69B5F45ED47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79A10898-0075-462D-882A-F69B5F45ED47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79A10898-0075-462D-882A-F69B5F45ED47}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		CodeStyleEnforcer_RulesLocation = 0
+		CodeStyleEnforcer_Active = -1
+	EndGlobalSection
+EndGlobal
